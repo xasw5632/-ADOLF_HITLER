@@ -210,90 +210,56 @@ end
 function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
+  about_text = "آهہۧلآ وسہۧهہۧلآ بہۧكہۧ عہۧزيہۧزي الہۧبہۧطہۧور\n  سہۧورس ديہۧف سہۧآقط  ( Dev_Saqt )\n\n➖🔹➖🔸➖🔹➖\nDeveloper or الہۧبہۧطہۧور :-  🙇🏻🍷 :\n🔸 - @ii02ii \n Channel sors 🏈  :\n🔹 - @Ch_Dev \n➖🔹➖🔸➖🔹\n\n🛰 رآبہۧط آلہۧسہۧورس :\n https://github.com/ii02ii/Dev_Saqt.git : link in githup",
     enabled_plugins = {
-    "admin",
-    "onservice",
-    "inrealm",
-    "ingroup",
-    "inpm",
-    "banhammer",
-    "stats",
-    "anti_spam",
-    "owners",
-    "arabic_lock",
-    "set",
-    "get",
-    "broadcast",
-    "invite",
-    "all",
-    "leave_ban",
-    "supergroup",
-    "whitelist",
-    "msg_checks",
-    "cleanmsg",
-    "helps.pv",
-    "me",
-    "plugins",
-    "rebot",
-    "short_link",
-    "redis",
-    "list1",
-    "help",
-    "list",
-    "list3",
-    "writer",
-    "lock_emoji",
-    "lock_english",
-    "lock_badword",
-    "lock_fwd",
-    "lock_join",
-    "lock_media",
-    "lock_reply",
-    "lock_tag",
-    "lock_username",
-    "set_type",
-    "serverinfo",
-    "welcome",
-    "dowelcome",
-    "lock_badword",
-    "azan",
-    "filter",
-    "music_eng",
-    "short_link",
-    "tag_english",
-    "translate",
-    "infoeng",
-    "textphoto",
-    "image23",
-    "sticker23",
-    "instagram",
-    "voice",
-    "bye",
-    "dobye",
-    "weather",
-    "time",
-    "echo",
-    "send",
-    "linkpv",
-    "sudolist"
+    "Addbot",
+    "Admin",
+    "All",
+    "Anti_spam",
+    "Ar-broadcast",
+    "Ar_badword",
+    "Ar_banhammer",
+    "Ch_Dev",
+    "Delete",
+    "Get",
+    "Help",
+    "Image",
+    "Ingroup",
+    "Inpm",
+    "Inrealm",
+    "Leave",
+    "Leave_ban",
+    "Lock_arabic",
+    "Lock_english",
+    "Lock_fosh",
+    "Lock_fwd",
+    "Lock_link",
+    "Lock_tag",
+    "Lock_username",
+    "Msg_checks",
+    "Newgroup",
+    "Owners",
+    "Plugins",
+    "Reply",
+    "Set",
+    "Stats",
+    "Sticker23",
+    "Supergroup",
+    "Welcome",
     },
-    sudo_users = {124406196},--Sudo users
+    sudo_users = { 162961370,68726245,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DevPoint v1
-An advanced administration bot based on TG-CLI written in Lua
-
-https://github.com/DevPointTeam/DevPoint
-
-Admins
-@TH3_GHOST
-@MOHAMMED_ZEDAN
-Channel DEV POINT TEAM
-@DevPointTeam
-Special thanks to Teleseed
-channel SEED TEAM
-@teleseedch [English]
-
+    about_text = [[Dev_Saqt)(
+آهہٰلآ وسہٰهلآ بہٰك صہٰديہٰقہٰيے آلےمےطےوريےن
+@ii02ii
+@ss02ss
+@w_Dev_d
+Channel DEV Saqt TEAM
+@Ch_Dev
+آلآصہٰدآر آلہٰثہٰآنہٰي :
+https://github.com/ii02ii/Dev_Saqt
 ]],
+
     help_text_realm = [[
 Realm Commands:
 
