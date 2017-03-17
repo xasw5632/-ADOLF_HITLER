@@ -8,7 +8,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=DevPoint
+BOT=Dev_Saqt
 RELOADTIME=10
 
 function tmux_mode {
@@ -27,14 +27,14 @@ rst=$'\e[0m'
 
 cat << EOF
 
- $f1  @DevPointTeam     $f2 @DevPointTeam     $f3  @DevPointTeam   $f4  @DevPointTeam    $f5 @DevPointTeam    $f6 @DevPointTeam  $rst
+ $f1  @Ch_Dev (قناة المطورين)     $f2 @Ch_Dev (قناة المطورين)     $f3  @Ch_Dev (قناة المطورين)   $f4  @Ch_Dev (قناة المطورين)    $f5 @Ch_Dev (قناة المطورين)    $f6 @Ch_Dev (قناة المطورين)  $rst
 
 EOF
-echo -e "                \e[100m                DevPoint script           \e[00;37;40m"
-echo -e "               \e[01;34m                 By Aziz                \e[00;37;40m"
+echo -e "                \e[100m                Dev_Saqt script           \e[00;37;40m"
+echo -e "               \e[01;34m                 By Memo(@II02II)                \e[00;37;40m"
 echo ""
 cat << EOF
- $bld$f1 @DevPointTeam   $f2 @DevPointTeam    $f3  @DevPointTeam    $f4 @DevPointTeam   $f5 @DevPointTeam    $f6  @DevPointTeam  $rst
+ $bld$f1  @Ch_Dev (قناة المطورين)     $f2 @Ch_Dev (قناة المطورين)     $f3  @Ch_Dev (قناة المطورين)   $f4  @Ch_Dev (قناة المطورين)    $f5 @Ch_Dev (قناة المطورين)    $f6 @Ch_Dev (قناة المطورين)  $rst
 
 
 EOF
@@ -55,10 +55,10 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m     > Channel : @DevPointTeam                         \033[0;00m"
-echo -e "\033[38;5;208m     > Developer : @TH3_GHOST                        \033[0;00m"
-echo -e "\033[38;5;208m     > Bot ID : @SuperDevPoint                         \033[0;00m"
-echo -e "\033[38;5;208m     > Github : GitHub.com/DevPointTeam/DevPoint      \033[0;00m"
+echo -e "\033[38;5;208m     > قہۧنہۧآة آلہۧمہۧطہۧور  :- @DevPointTeam                       \033[0;00m"
+echo -e "\033[38;5;208m     > آلہۧمہۧطہۧور :-         @II02II                          \033[0;00m"
+echo -e "\033[38;5;208m     >  بہۧوتہۧ آلہۧتہۧوآصہۧل :- @SuperDevPoint               \033[0;00m"
+echo -e "\033[38;5;208m     > آلآصہۧدآر :- https://github.com/ii02ii/Dev_Saq   \033[0;00m"
 echo -e "\033[38;5;208m                                                   \033[0;00m"
 
 sleep 1.5
@@ -173,14 +173,14 @@ bld=$'\e[1m'
 rst=$'\e[0m'
 
 cat << EOF
- $f1  @DevPointTeam     $f2 @DevPointTeam     $f3  @DevPointTeam   $f4  @DevPointTeam    $f5 @DevPointTeam    $f6 @DevPointTeam  $rst
+ $f1  @Ch_Dev (قناة المطورين)     $f2 @Ch_Dev (قناة المطورين)     $f3  @Ch_Dev (قناة المطورين)   $f4  @Ch_Dev (قناة المطورين)    $f5 @Ch_Dev (قناة المطورين)    $f6 @Ch_Dev (قناة المطورين)  $rst
 
 EOF
-echo -e "                \e[100m                DevPoint script           \e[00;37;40m"
-echo -e "               \e[01;34m                 By Aziz                \e[00;37;40m"
+echo -e "                \e[100m                Dev_Saqt script           \e[00;37;40m"
+echo -e "               \e[01;34m                 By Memo (@ii02ii)                \e[00;37;40m"
 echo ""
 cat << EOF
- $bld$f1 @DevPointTeam   $f2 @DevPointTeam    $f3  @DevPointTeam    $f4 @DevPointTeam   $f5 @DevPointTeam    $f6  @DevPointTeam  $rst
+ $bld$f1 @Ch_Dev (قناة المطورين)   $f2 @Ch_Dev (قناة المطورين)    $f3  @Ch_Dev (قناة المطورين)    $f4 @Ch_Dev (قناة المطورين)   $f5 @Ch_Dev (قناة المطورين)    $f6  @Ch_Dev (قناة المطورين)  $rst
 
 
 EOF
@@ -201,10 +201,10 @@ sleep 0.5
 
 
 echo ""
-echo -e "\033[38;5;208m     > Channel : @DevPointTeam                         \033[0;00m"
-echo -e "\033[38;5;208m     > Developer : @TH3_GHOST                        \033[0;00m"
-echo -e "\033[38;5;208m     > Bot ID : @SuperDevPoint                         \033[0;00m"
-echo -e "\033[38;5;208m     > Github : GitHub.com/DevPointTeam/DevPoint      \033[0;00m"
+echo -e "\033[38;5;208m     > قہۧنہۧآة آلہۧمہۧطہۧور  :- @DevPointTeam                       \033[0;00m"
+echo -e "\033[38;5;208m     > آلہۧمہۧطہۧور :-         @II02II                          \033[0;00m"
+echo -e "\033[38;5;208m     >  بہۧوتہۧ آلہۧتہۧوآصہۧل :- @SuperDevPoint               \033[0;00m"
+echo -e "\033[38;5;208m     > آلآصہۧدآر :- https://github.com/ii02ii/Dev_Saq   \033[0;00m"
 echo -e "\033[38;5;208m                                                   \033[0;00m"
 
 # Starting preliminar setup
@@ -482,10 +482,10 @@ while getopts ":tsTSih" opt; do
 	echo ""
 	echo -e "\e[0m"
 echo ""
-echo -e "\033[38;5;208m     > Channel : @DevPointTeam                         \033[0;00m"
-echo -e "\033[38;5;208m     > Developer : @TH3_GHOST                        \033[0;00m"
-echo -e "\033[38;5;208m     > Bot ID : @SuperDevPoint                         \033[0;00m"
-echo -e "\033[38;5;208m     > Github : GitHub.com/DevPointTeam/DevPoint      \033[0;00m"
+echo -e "\033[38;5;208m     > قہۧنہۧآة آلہۧمہۧطہۧور  :- @DevPointTeam                       \033[0;00m"
+echo -e "\033[38;5;208m     > آلہۧمہۧطہۧور :-         @II02II                          \033[0;00m"
+echo -e "\033[38;5;208m     >  بہۧوتہۧ آلہۧتہۧوآصہۧل :- @SuperDevPoint               \033[0;00m"
+echo -e "\033[38;5;208m     > آلآصہۧدآر :- https://github.com/ii02ii/Dev_Saq   \033[0;00m"
 echo -e "\033[38;5;208m                                                   \033[0;00m"
 echo ""
 	exit 1
@@ -495,12 +495,12 @@ echo ""
 	echo -e ""
 	echo "Usage:"
 	echo -e ""
-	echo "devpoint.sh -t"
-	echo "devpoint.sh -s"
-	echo "devpoint.sh -T"
-	echo "devpoint.sh -S"
-	echo "devpoint.sh -h"
-	echo "devpoint.sh -i"
+	echo "Dev_Saqt.sh -t"
+	echo "Dev_Saqt.sh -s"
+	echo "Dev_Saqt.sh -T"
+	echo "Dev_Saqt.sh -S"
+	echo "Dev_Saqt.sh -h"
+	echo "Dev_Saqt.sh -i"
     echo ""
 	echo "Options:"
 	echo ""
