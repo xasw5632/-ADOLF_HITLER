@@ -19,18 +19,29 @@ memUsed_m=$(($memTotal_m-$memFree_m-$memBuffer_m-$memCache_m))
 
 memUsedPrc=$((($memUsed_b*100)/$memTotal_b))
 
-echo "✅Memory : $memTotal_m MB"
-echo "➖➖➖➖➖🎗"
-echo "✅Used : $memUsed_m MB - $memUsedPrc% used!"
-echo "➖➖➖➖➖🎗"
-echo "✅Total : $memTotal_b"
-echo "➖➖➖➖➖🎗"
-echo '✅CPU Usage : '"$CPUPer"'%'
-echo "➖➖➖➖➖🎗"
-echo '✅Hdd : '"$hdd"'%'
-echo "➖➖➖➖➖🎗"
-echo '✅Processes : '"$ProcessCnt"
-echo "➖➖➖➖➖🎗"
-echo '✅Uptime : '"$uptime"
-echo "➖➖➖➖➖🎗"
-echo "🌐 DEV🎗POINT🎗TEAM 🌐"
+echo "🤖 ذاكہۧرةة آلہۧوركہ 🌝🍷\n : $memTotal_m MB"
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo "🤖 آسہۧتہۧخہۧدآم آلہۧوركہ 😻🤔\n  : $memUsed_m MB - $memUsedPrc% used!"
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo "🤖 مہۧجہۧمہۧوعہۧهہۧآ 🕴💫  \n : $memTotal_b"
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo '🤖 آسہۧتہۧخدآم مہۧعآلہۧج آلہۧوركہ 🤖\n  : '"$CPUPer"'%'
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo '🤖 آلآقہۧرآص آلہۧصہۧلہۧبہۧةة 🤔\n ملفات ثابتة متنحذف  : '"$hdd"'%'
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo '🤖 عہۧدد شہۧغل آلہۧمعہۧآلہۧج 🌝✨ \n : '"$ProcessCnt"
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo '🤖 مہۧدةة آلہۧتہۧشہۧغيہۧل 🐸🍷\n  : '"$uptime"
+echo "🔸➖🔹➖🔸➖🔹➖🔸"
+echo "https://github.com/ii02ii/DevSaqt"
+echo "@Ch_Dev"
+
+
+--[[ 
+ماعتقد اي شخص معربة  مو بس مزخرفة وموضحة مثلي ؟
+لان شغلي بالحاسبات وكله مصطلحات انكليزية وهذا مفهومة وترجمتة 
+اتفضلو لقناتي 
+@CH_DEV
+#ميمو مشآكل العراقي 
+@ii02ii 
+]]--
