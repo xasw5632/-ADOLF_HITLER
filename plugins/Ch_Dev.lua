@@ -34,7 +34,7 @@ local reply_id = msg['id']
                                                                 『 @Ch_Dev 』
 ]]
 reply_msg(reply_id, ii02ii, ok_cb, false) 
-end
+end 
 
                                                    -- ملف معلومات  سيرفرك ينطيك حجم الورك وكلشي 
 if is_sudo(msg) and matches[1] == 'معلومات السيرفر' then 
