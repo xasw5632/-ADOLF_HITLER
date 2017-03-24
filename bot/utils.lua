@@ -1218,4 +1218,3 @@ function ban_by_reply_admins(extra, success, result)
 		return
 	end
 end
- 
